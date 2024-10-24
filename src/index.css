@@ -5,9 +5,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f0f0; /* Light background */
+  color: #333; /* Default text color */
+  padding: 20px; /* Global padding */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a {
+  color: #1e90ff; /* Bright blue for links */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+h1, h2, h3 {
+  margin: 0; /* Reset margin for headings */
+}
+
+h1 {
+  font-size: 2rem; /* Responsive heading size */
+}
+
+h2 {
+  font-size: 1.5rem;
 }

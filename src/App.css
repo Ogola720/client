@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+/* App.css */
+
+body {
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* White text for contrast */
+  font-family: Arial, sans-serif; /* Font style */
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  color: #1e90ff; /* Bright blue color for the heading */
+  text-align: center; /* Center the heading */
+  margin-top: 50px; /* Spacing from the top */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+div {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  height: 100vh; /* Full viewport height */
 }
 
-.App-link {
-  color: #61dafb;
+form {
+  background-color: #1e1e1e; /* Darker background for the form */
+  padding: 20px; /* Spacing inside the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+label {
+  display: block; /* Labels on a new line */
+  margin-bottom: 8px; /* Space below each label */
+  font-weight: bold; /* Bold labels */
+}
+
+input {
+  width: 100%; /* Full-width input */
+  padding: 10px; /* Padding inside inputs */
+  margin-bottom: 20px; /* Space below inputs */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 4px; /* Rounded corners for inputs */
+  background-color: #333; /* Dark input background */
+  color: #fff; /* White text inside inputs */
+}
+
+input:focus {
+  border-color: #1e90ff; /* Highlight border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+button {
+  background-color: #1e90ff; /* Button background color */
+  color: #fff; /* White text on button */
+  padding: 10px 15px; /* Padding inside button */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background transition */
+}
+
+button:hover {
+  background-color: #0b7dda; /* Darker blue on hover */
+}
+
+p {
+  margin-top: 10px; /* Space above error message */
 }
